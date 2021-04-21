@@ -1,7 +1,7 @@
 version: '2'
 services:
   mount-rclone01:
-    image: mumiehub/rclone-mount:latest
+    image: ghcr.io/danielewood/rclone-mount:latest
 #    privileged: true
     cap_add:
     - SYS_ADMIN
@@ -17,3 +17,4 @@ services:
     volumes:
     - /path/to/config:/config
     - /host/mount/point:/mnt/mediaefs:shared
+    
