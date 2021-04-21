@@ -23,7 +23,6 @@ jobs:
           tagName="v$(jq -r '[ .[] | .tag_name |= sub("^v";"") | select( .tag_name | test("^2\\.[0-9]+\\.[0-9]+\\.[0-9]+$") ) ] | max_by( .tag_name | split(".") | map(tonumber) ) | .tag_name' /tmp/releases_temp.json)"
           # Store s6-latest.json
           jq --arg tagName "$tagName" -r ".[] | select( .tag_name == \"$tagName\" )" /tmp/releases_temp.json > s6-latest.json
-
           # Get rclone releases
           curl -sL 'https://api.github.com/repos/rclone/rclone/releases' > /tmp/releases_temp.json
           # Extract latest tag of 1.x.x (exclude release candidates)
@@ -63,7 +62,7 @@ jobs:
     - name: Publish to GitHub Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: ghcr.io/${{ github.repository }}
+        name: ghcr.io/${{ github.repository_owner }}/rclone-mount
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: ghcr.io
