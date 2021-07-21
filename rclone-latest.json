@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/rclone/rclone/releases/41989132",
-  "assets_url": "https://api.github.com/repos/rclone/rclone/releases/41989132/assets",
-  "upload_url": "https://uploads.github.com/repos/rclone/rclone/releases/41989132/assets{?name,label}",
-  "html_url": "https://github.com/rclone/rclone/releases/tag/v1.55.1",
-  "id": 41989132,
+  "url": "https://api.github.com/repos/rclone/rclone/releases/46496198",
+  "assets_url": "https://api.github.com/repos/rclone/rclone/releases/46496198/assets",
+  "upload_url": "https://uploads.github.com/repos/rclone/rclone/releases/46496198/assets{?name,label}",
+  "html_url": "https://github.com/rclone/rclone/releases/tag/v1.56.0",
+  "id": 46496198,
   "author": {
     "login": "ncw",
     "id": 536803,
@@ -24,15 +24,15 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTQxOTg5MTMy",
-  "tag_name": "v1.55.1",
+  "node_id": "MDc6UmVsZWFzZTQ2NDk2MTk4",
+  "tag_name": "v1.56.0",
   "target_commitish": "master",
-  "name": "rclone v1.55.1",
+  "name": "rclone v1.56.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-04-26T07:32:27Z",
-  "published_at": "2021-04-26T08:08:49Z",
-  "tarball_url": "https://api.github.com/repos/rclone/rclone/tarball/v1.55.1",
-  "zipball_url": "https://api.github.com/repos/rclone/rclone/zipball/v1.55.1",
-  "body": "This is the v1.55.1 release of rclone.\n\nFull details of the changes can be found in [the changelog](https://rclone.org/changelog/#v1-55-1-2021-04-26).\n"
+  "created_at": "2021-07-20T18:45:45Z",
+  "published_at": "2021-07-20T19:25:26Z",
+  "tarball_url": "https://api.github.com/repos/rclone/rclone/tarball/v1.56.0",
+  "zipball_url": "https://api.github.com/repos/rclone/rclone/zipball/v1.56.0",
+  "body": "This is the v1.56.0 release of rclone.\n\nFull details of the changes can be found in [the changelog](https://rclone.org/changelog/#v1-56-0-2021-07-20).\n"
 }
